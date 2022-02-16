@@ -1,4 +1,6 @@
 #!/usr/bin/env groovy
+def ak = [4]
+
 def sharlib(){
   sh 'echo "this will add when passed args."'
 }
