@@ -10,7 +10,7 @@ def abc(){
 }
 
 def a1(){
-  sh 'echo "cloudkeeper-pro"'
+  sh 'echo "cloudkeeper-pro ${ak}"'
   sh 'echo "cloudkeeper-lens"'
   sh 'echo "cloudkeeper-demo"'
 }
