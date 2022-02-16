@@ -13,7 +13,7 @@ def a1(){
   sh 'echo "cloudkeeper-demo"'
 }
 
-def a1(){
+def b1(){
   sh 'echo "cloudkeeper-demo"'
   sh 'echo " first demo for shared jenkins library"'
   sh 'echo "this will add when passed args."'
