@@ -9,7 +9,7 @@ def abc(){
   echo "double is custom built in"
 }
 
-def a1(){
+def a1(ak){
   sh 'echo "cloudkeeper-pro ${ak}"'
   sh 'echo "cloudkeeper-lens"'
   sh 'echo "cloudkeeper-demo"'
