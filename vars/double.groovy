@@ -1,7 +1,7 @@
 def abc(){
-  echo "this will add when passed args."
+  sh 'echo "this will add when passed args."'
 }
 
 def xyz(){
-  echo "this will subtract"
+  sh 'echo "this will subtract"'
 }
