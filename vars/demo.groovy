@@ -18,3 +18,7 @@ def b1(){
   sh 'echo " first demo for shared jenkins library"'
   sh 'echo "this will add when passed args."'
 }
+
+def add(x,y){
+  echo "sum of $x and $y is $(x+y)"
+}
