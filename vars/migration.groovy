@@ -4,7 +4,7 @@ def update(year,month,level,account){
 
 def pull(Map){
   
-  checkout([$class: GitSCM, 
+  checkout([$class: 'GitSCM', 
             branches: branch, 
             doGenerateSubmoduleConfigurations: false, 
             extensions: [], 
