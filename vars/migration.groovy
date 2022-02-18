@@ -2,7 +2,7 @@ def update(year,month,level,account){
   sh "python3 scripts/cur_scripts/tag-tables-update-new.py ${year} ${month} ${level} '${accounts}'"
 }
 
-def pull(){
+def pull(Map){
   
   checkout([$class: def class_name(Map), 
             branches: [[name: def class_name(Map)]], 
