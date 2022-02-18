@@ -9,7 +9,7 @@ def pull(Map stageParams){
             doGenerateSubmoduleConfigurations: false, 
             extensions: [], 
             submoduleCfg: [], 
-            #userRemoteConfigs: [[credentialsId: 'd153af68-8f30-4c55-bfe4-646037e020f0', 
+            userRemoteConfigs: [[credentialsId: stageParams.credentials, 
             url: stageParams.url]]]) 
 }
 
