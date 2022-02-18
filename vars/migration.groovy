@@ -5,11 +5,11 @@ def update(year,month,level,account){
 def pull(Map){
   
   checkout([$class: 'GitSCM', 
-            branches: environment.branch, 
+            branches: [[name: "*/${BRANCH}"]], 
             doGenerateSubmoduleConfigurations: false, 
             extensions: [], 
             submoduleCfg: [], 
-            userRemoteConfigs: [[url: environment.url]]]) 
+            userRemoteConfigs: [[url: "*/${URL}"]]]) 
 }
 
 def clean(){
