@@ -5,12 +5,12 @@ def update(year,month,level,account){
 def pull(Map stageParams){
   
  	checkout([$class: 'GitSCM', 
-            branches: [[name: stageParams.branch]], 
+            branches: [[name: 'main']], 
             doGenerateSubmoduleConfigurations: false, 
             extensions: [], 
             submoduleCfg: [], 
             userRemoteConfigs: [[credentialsId: stageParams.credentials, 
-            url: stageParams.url]]]) 
+            url: '']]]) 
 }
 
 def clean(){
