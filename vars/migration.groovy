@@ -1,4 +1,4 @@
-def update(year,month,level,account){
+def update(year,month,level,accounts){
   sh "python3 scripts/cur_scripts/tag-tables-update-new.py ${year} ${month} ${level} '${accounts}'"
 }
 
@@ -16,8 +16,3 @@ def clean(){
   cleanWs()
 }
 
-def class_name(Map){
-  $class: GitSCM
-  name: main
-  url: 'https://github.com/akashkumarttn/sharedlibsjenkins.git'
-}
