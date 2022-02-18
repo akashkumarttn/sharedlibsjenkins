@@ -9,7 +9,7 @@ def pull(Map){
             doGenerateSubmoduleConfigurations: false, 
             extensions: [], 
             submoduleCfg: [], 
-            userRemoteConfigs: [[url: "*/${URL}"]]]) 
+            userRemoteConfigs: [[url: "*/${url}"]]]) 
 }
 
 def clean(){
