@@ -3,7 +3,7 @@ def update(year,month,level,account){
 }
 
 def pull(Map stageParams){
-  #sh 'git config --global http.sslverify "false"'
+  
  	checkout([$class: 'GitSCM', 
             branches: [[name: stageParams.branch]], 
             doGenerateSubmoduleConfigurations: false, 
