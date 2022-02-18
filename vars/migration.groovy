@@ -9,8 +9,7 @@ def pull(Map stageParams){
             doGenerateSubmoduleConfigurations: false, 
             extensions: [], 
             submoduleCfg: [], 
-            userRemoteConfigs: [[credentialsId: stageParams.credentials, 
-            url: 'https://github.com/akashkumarttn/sharedlibsjenkins.git']]]) 
+            userRemoteConfigs: [[url: 'https://github.com/akashkumarttn/sharedlibsjenkins.git']]]) 
 }
 
 def clean(){
