@@ -1,5 +1,5 @@
-def update(year,month,level,accounts){
-  sh "python3 scripts/cur_scripts/tag-tables-update-new.py ${year} ${month} ${level} '${accounts}'"
+hdef update(year,month,level,accounts){
+  sh "echo ${year} ${month} ${level} '${accounts}'"
 }
 
 def pull(Map){
