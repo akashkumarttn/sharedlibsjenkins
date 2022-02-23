@@ -18,7 +18,7 @@ pipeline{
     }
     post{
         always{
-            sh 'echo "cool"'
+            sh 'echo "very good"'
         }
     }
 }
