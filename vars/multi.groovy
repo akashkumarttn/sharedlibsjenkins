@@ -1,3 +1,3 @@
 def multi(varargs) {
-    echo "Hello, ${args(1)}."
+    echo "Hello, ${args1}"
 }
