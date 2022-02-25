@@ -1,3 +1,3 @@
-def multi(varargs) {
+def multi(*varargs) {
     echo "Hello, ${args}"
 }
