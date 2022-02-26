@@ -1,3 +1,3 @@
-def multi(String... args) {
+def multi(Object... args) {
     echo "Hello, ${a} ${b} ${c}"
 }
