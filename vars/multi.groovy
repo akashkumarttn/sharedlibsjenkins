@@ -1,3 +1,3 @@
 def multi(Object... args) {
-    echo "Hello, ${a} ${b} ${c}"
+    echo "Hello, ${args} ${args} ${args}"
 }
