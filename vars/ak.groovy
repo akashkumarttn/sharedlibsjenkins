@@ -1,5 +1,6 @@
 def env(){
-  try{
-    echo " try work well"
-  }
+  dir('demo-migration'){
+ 	                sh "pwd"
+                    sh "echo 'dir. work well' "
+                }
 }
